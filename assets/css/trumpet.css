@@ -12,6 +12,16 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+@font-face {
+  font-family: "musket";
+  src: url("../fonts/musket_bold-webfont.eot");
+  src: url("../fonts/musket_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/musket_bold-webfont.woff") format("woff"), url("../fonts/musket_bold-webfont.ttf") format("truetype"), url("../fonts/musket_bold-webfont.svg#icons") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+.trumpet-text {
+  font-family: 'musket', inherit;
+  font-weight: bold; }
+
 .call-to-action {
   z-index: 1;
   position: relative;
