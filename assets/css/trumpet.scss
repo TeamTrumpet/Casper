@@ -100,6 +100,10 @@ $trumpet_blue: rgb(26, 107, 109);
     padding: 15px 20px;
     border-radius: 3px;
 
+    @include media(max-width 769px) {
+        margin: 0 auto;
+    }
+
     &:after {
         width: 0%;
         height: 100%;

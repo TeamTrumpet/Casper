@@ -111,6 +111,9 @@ html {
   margin: 66px auto 0;
   padding: 15px 20px;
   border-radius: 3px; }
+  @media screen and (max-width: 769px) {
+    .btn-trumpet {
+      margin: 0 auto; } }
   .btn-trumpet:after {
     width: 0%;
     height: 100%;
