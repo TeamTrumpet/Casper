@@ -101,7 +101,7 @@ $trumpet_blue: rgb(26, 107, 109);
     border-radius: 3px;
 
     @include media(max-width 769px) {
-        margin: 0 auto;
+        margin: 40px auto 0;
     }
 
     &:after {
